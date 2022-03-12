@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/call_storage.sol": "Itorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/call_storage.sol": {
+			"keccak256": "0x49f9bb746eaec933dde3b6622eaccfa8e198ef2485321f26bd25c7d37daf440e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4a18daa00c49f13ec587b5dba6be6eacfd8ab82203948e4fe659fdff1fcff299",
+				"dweb:/ipfs/Qmb9gnREfNX2rAz835xijKMxXyoETnGH7ug3eAyTE46zkG"
+			]
+		}
+	},
+	"version": 1
+}

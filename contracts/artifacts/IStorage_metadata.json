@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/call_storage.sol": "IStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/call_storage.sol": {
+			"keccak256": "0x696d5e08c9f8bb0c1c867a7b6c981f4370c0061fb601e20a7812e4b2d2576c24",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a8bde17fba013f95428e2fc278f2191e4ddfbfabe27a09be7e11232a405196fb",
+				"dweb:/ipfs/QmW3JYw1JDCMvuCShEHzc2wdyRUdAimfvrDp3oGohsfqhu"
+			]
+		}
+	},
+	"version": 1
+}

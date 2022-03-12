@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dateTimeAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/date_convert.sol": "date_convert"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/date_convert.sol": {
+			"keccak256": "0x1623b292f23fc73275fafbe56f2bad8961e3f1cd9c5177334075a33336f4d190",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2e77b89915cc709bebdc7258dc8bb2a4ffb5c820515d02e9f724729808e1b43f",
+				"dweb:/ipfs/QmQMGq3A9n5sq9dEyW7NuRc6gh9qcRi4qS4yWezoNtMRt3"
+			]
+		}
+	},
+	"version": 1
+}

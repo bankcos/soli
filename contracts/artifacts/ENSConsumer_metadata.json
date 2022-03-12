@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "ensaddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "node",
+						"type": "bytes32"
+					}
+				],
+				"name": "resolve",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/getprice.sol": "ENSConsumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/getprice.sol": {
+			"keccak256": "0xb8283d876a2bdb496f10d473455961a61ab1f15756f019c03853bc9f80685bb4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bccd53d996d6d1de59a03be0ab14a6c876a49507de86eb2b5bf24f38587d5ae1",
+				"dweb:/ipfs/QmbjvHxbUze46YFqxx3FYNfxJZZSiVmb3yfzEdmd2Y88ki"
+			]
+		}
+	},
+	"version": 1
+}
